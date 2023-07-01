@@ -83,23 +83,22 @@
 				}
 			}
 		);
-		// gsap.fromTo(
-		// 	'.container-diensten',
-		// 	{ opacity: 0, y: 100 },
-		// 	{
-		// 		opacity: 1,
-		// 		y: 0,
-		// 		duration: 1,
-		// 		delay: 0.5,
-		// 		scrollTrigger: {
-		// 			trigger: '.second-screen',
-		// 			start: 'top center'
-		// 			// end: 'bottom 20%',
-		// 			// scrub: true
-		// 		}
-		// 	}
-		// );
-		// Contact
+		gsap.fromTo(
+			'.container-diensten',
+			{ opacity: 0, y: 100 },
+			{
+				opacity: 1,
+				y: 0,
+				duration: 1,
+				delay: 0.5,
+				scrollTrigger: {
+					trigger: '.second-screen',
+					start: 'top center'
+					// end: 'bottom 20%',
+					// scrub: true
+				}
+			}
+		); // Contact
 		gsap.fromTo(
 			'.contact-title1',
 			{ opacity: 0 },
