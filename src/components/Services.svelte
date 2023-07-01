@@ -51,7 +51,7 @@
 					<img
 						src="/bandage-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto"
+						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Wondverzorging</h3>
 					<p class="text-sm lg:py-2">Professionele zorg voor wonden.</p>
@@ -62,7 +62,7 @@
 					<img
 						src="/sringe-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto"
+						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Inspuitingen</h3>
 					<!-- injecties -->
@@ -109,7 +109,7 @@
 					<img
 						src="/sringe-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto"
+						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Insuline injecteren</h3>
 					<p class="text-sm lg:py-2">Deskundige insuline-injecties verzorgen.</p>
@@ -120,7 +120,7 @@
 					<img
 						src="/bandage-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto"
+						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Compressieverband</h3>
 					<p class="text-sm lg:py-2">Effectieve behandeling met compressieverband.</p>
@@ -166,7 +166,7 @@
 					<img
 						src="/eye-drop.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto"
+						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Oogdruppels</h3>
 					<p class="text-sm lg:py-2">Zorgvuldige toediening van oogdruppels.</p>
@@ -177,7 +177,7 @@
 					<img
 						src="/zalf.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto"
+						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Zalven</h3>
 					<p class="text-sm lg:py-2">Deskundig aanbrengen van zalf.</p>
@@ -223,7 +223,7 @@
 					<img
 						src="/support-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto"
+						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Palliatieve verzorging</h3>
 					<p class="text-sm lg:py-2">Empathische zorg voor palliatieve patiënten.</p>
