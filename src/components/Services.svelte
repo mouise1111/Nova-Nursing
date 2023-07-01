@@ -40,7 +40,7 @@
 					<img
 						src="/soap-solid.svg"
 						alt="support icon"
-						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto"
+						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Hygiënische zorgen</h3>
 					<p class="text-sm lg:py-2">Zorg voor een goede persoonlijke hygiëne.</p>
