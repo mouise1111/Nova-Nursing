@@ -31,7 +31,6 @@
 
 		{#if counter == 0}
 			<div
-				in:slide|local={{ duration: 500, axis: 'x' }}
 				class="lg:flex lg:flex-row justify-center lg:max-w-6xl lg:my-24 diensten mx-auto lg:justify-between container-diensten p-2"
 			>
 				<div
