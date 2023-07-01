@@ -43,7 +43,8 @@
 						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Hygiënische zorgen</h3>
-					<p class="text-sm lg:py-2">Zorg voor een goede persoonlijke hygiëne.</p>
+					<!-- <p class="text-sm lg:py-2">Zorg voor een goede persoonlijke hygiëne.</p> -->
+					<p class="">Zorg voor een goede persoonlijke hygiëne.</p>
 				</div>
 				<div
 					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
