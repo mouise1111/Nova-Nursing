@@ -98,7 +98,8 @@
 		// 			// scrub: true
 		// 		}
 		// 	}
-		); // Contact
+		// );
+		// Contact
 		gsap.fromTo(
 			'.contact-title1',
 			{ opacity: 0 },
