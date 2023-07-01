@@ -155,7 +155,7 @@
 					<img
 						src="/care-solid.svg"
 						alt="support icon"
-						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto"
+						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Stomazorg</h3>
 					<p class="text-sm lg:py-2">Betrouwbare zorg voor stoma-patiënten.</p>
@@ -212,7 +212,7 @@
 					<img
 						src="/medication.svg"
 						alt="support icon"
-						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto"
+						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto hidden lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Voorbereiden van weekmedicatie</h3>
 					<p class="text-sm lg:py-2">Nauwkeurige voorbereiding van wekelijkse medicatie.</p>
