@@ -7,7 +7,7 @@
 
 <style>
 	:global(body) {
-		font-family: 'manrope';
+		font-family: 'manrope', Arial;
 		font-display: swap;
 	}
 
