@@ -8,6 +8,7 @@
 <style>
 	:global(body) {
 		font-family: 'manrope';
+		font-display: swap;
 	}
 
 	:global(main) {
