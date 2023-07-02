@@ -440,7 +440,10 @@
 </main>
 <footer class="bg-gray-200 py-4 mt-8 lg:mt-8">
 	<div class="lg:px-24">
-		<div class="flex justify-center">
+		<div class="flex flex-col justify-center items-center">
+			<a href="https://www.instagram.com/thuisverpleging_nova/" target="_blank" class="mb-2">
+				<img src="/instagram.svg" alt="instagram icon" class="w-10" />
+			</a>
 			<p class="text-gray-600">&copy; 2023 Nova. Alle rechten voorbehouden.</p>
 		</div>
 	</div>
