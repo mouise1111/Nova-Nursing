@@ -452,25 +452,25 @@
 			<div
 				class="border-2 border-lime-500 rounded-full w-12 h-12 lg:w-20 lg:h-20 flex items-center justify-center mb-8"
 			>
-				<img src="/phone-solid.svg" alt="" class="w-16 mx-2 lg:mx-0 lg:w-12 mb-4 m-4" />
+				<img src="/phone-solid.svg" alt="" class="w-12 lg:w-12 m-4" />
 			</div>
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<a href="tel:+32473952864">0473 95 28 64</a>
 				<h3>An De Ro</h3>
 			</div>
 
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<a href="tel:+32496569360">0496 56 93 60</a>
 				<h3>Vicky Van Biesen</h3>
 			</div>
 
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<a href="tel:+32473578230">0473 57 82 30</a>
 				<h3>Kelly van Cutsem</h3>
 			</div>
 
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<a href="tel:+32472450324">0472 45 03 24</a>
 				<h3>Yilke Read</h3>
 			</div>
 		</div>
