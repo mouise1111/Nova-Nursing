@@ -296,7 +296,7 @@
 	<Services />
 	<div
 		id="team"
-		class="h-screen flex items-center text-center lg:text-left third-screen lg:pt-0 mb-0 md:mb-16 lg:mb-0"
+		class="lg:h-screen flex items-center text-center lg:text-left third-screen lg:pt-0 mb-0 md:mb-16 lg:mb-0"
 	>
 		<div class="lg:flex flex-row rounded items-center justify-between lg:content-center">
 			<div class="lg:w-1/2 flex justify-center order-last lg:order-first">
@@ -337,7 +337,7 @@
 	</div>
 	<div
 		id="review"
-		class=" mb-0 md:mb-32 sm fourth-screen lg:mb-0 h-screen mt-0 lg:flex lg:flex-col lg:content-center lg:justify-center"
+		class=" mb-0 md:mb-32 sm fourth-screen lg:mb-0 lg:h-screen mt-0 lg:flex lg:flex-col lg:content-center lg:justify-center"
 	>
 		<h3 class="text-center bold text-lime-600 mt-16 lg:mt-0 title-review">Onze Beoordeling</h3>
 		<!-- <h2 class="text-center text-2xl my-4 px-2">
@@ -368,7 +368,7 @@
 			</div>
 		</div>
 	</div>
-	<div
+	<!-- <div
 		id="contact"
 		class="mb-0 md:mb-32 lg:mb-0 h-screen last-screen lg:flex lg:flex-col justify-center"
 	>
@@ -434,6 +434,44 @@
 						>Verzenden</button
 					>
 				</form>
+			</div>
+		</div>
+	</div> -->
+	<div
+		id="contact"
+		class="mb-0 lg:mb-0 lg:h-screen last-screen flex content-center flex-col justify-center lg:text-lg text-l"
+	>
+		<h3 class="text-center font-bold text-lime-600 mt-16 lg:mt-0 contact-title1">Contacteer ons</h3>
+		<h2 class="text-center text-2xl my-4 mb-8 lg:mb-16 px-2 contact-title2">
+			Wenst u thuisverpleging aan te vragen, gebruik te maken van onze ondersteunende diensten of
+			heeft u een vraag? Aarzel dan niet om ons te contacteren!
+		</h2>
+		<div
+			class="flex flex-col items-center content-center mb-8 lg:mb-0 lg:justify-center lg:min-w-fit lg:px-4 lg:ml-8 contact-container"
+		>
+			<div
+				class="border-2 border-lime-500 rounded-full w-12 h-12 lg:w-20 lg:h-20 flex items-center justify-center mb-8"
+			>
+				<img src="/phone-solid.svg" alt="" class="w-16 mx-2 lg:mx-0 lg:w-12 mb-4 m-4" />
+			</div>
+			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
+				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<h3>An De Ro</h3>
+			</div>
+
+			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
+				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<h3>Vicky Van Biesen</h3>
+			</div>
+
+			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
+				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<h3>Kelly van Cutsem</h3>
+			</div>
+
+			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
+				<a href="tel:+31612345678">+0473 95 28 64</a>
+				<h3>Yilke Read</h3>
 			</div>
 		</div>
 	</div>
