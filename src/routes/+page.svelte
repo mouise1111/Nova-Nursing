@@ -455,22 +455,22 @@
 				<img src="/phone-solid.svg" alt="" class="w-12 lg:w-12 m-4" />
 			</div>
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+32473952864">0473 95 28 64</a>
+				<a href="tel:+32473952864" class="underline">0473 95 28 64</a>
 				<h3>An De Ro</h3>
 			</div>
 
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+32496569360">0496 56 93 60</a>
+				<a href="tel:+32496569360" class="underline">0496 56 93 60</a>
 				<h3>Vicky Van Biesen</h3>
 			</div>
 
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+32473578230">0473 57 82 30</a>
+				<a href="tel:+32473578230" class="underline">0473 57 82 30</a>
 				<h3>Kelly van Cutsem</h3>
 			</div>
 
 			<div class="flex flex-row items-center mb-4 gap-4 justify-between">
-				<a href="tel:+32472450324">0472 45 03 24</a>
+				<a href="tel:+32472450324" class="underline">0472 45 03 24</a>
 				<h3>Yilke Read</h3>
 			</div>
 		</div>
