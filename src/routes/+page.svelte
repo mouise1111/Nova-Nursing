@@ -447,7 +447,7 @@
 			heeft u een vraag? Aarzel dan niet om ons te contacteren!
 		</h2>
 		<div
-			class="flex flex-col items-center content-center mb-8 lg:mb-0 lg:justify-center lg:min-w-fit lg:px-4 lg:ml-8 contact-container"
+			class="flex flex-col items-center content-center mb-8 lg:mb-0 lg:justify-center lg:min-w-fit lg:px-4 contact-container"
 		>
 			<div
 				class="border-2 border-lime-500 rounded-full w-12 h-12 lg:w-20 lg:h-20 flex items-center justify-center mb-8"
