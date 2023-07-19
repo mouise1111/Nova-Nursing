@@ -249,9 +249,9 @@
 	});
 </script>
 
-<main class="lg:px-24 sm:w-full">
-	<div class=" lg:h-screen first-screen md:mb-16 lg:mb-0">
-		<Navbar />
+<Navbar />
+<main class="lg:pt-20 md:pt-20 lg:px-24 sm:w-full">
+	<div class=" lg:h-screen first-screen md:mb-16 lg:mb-0" id="home">
 		<div class="pt-5 lg:pt-16">
 			<!-- <h1 class="my-3 text-6xl font-extrabold tracking-wider sm:text-sm">
 				Met een hart voor <span class="text-lime-600">Zorg</span>
