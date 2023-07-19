@@ -8,36 +8,42 @@
 	}
 </script>
 
-<nav class="">
-	<div class="px-2 lg:px-0 md:px-4">
-		<div class="flex items-center justify-between h-16">
+<a
+	href="#home"
+	on:click|preventDefault={scrollIntoView}
+	class="px-2 text-lg font-semibold lg:hidden md:hidden text-lime-600 hover:text-lime-700">Nova</a
+>
+<nav class="fixed z-50 hidden w-full lg:flex md:flex backdrop-blur-sm">
+	<div class="w-full lg:px-24 md:px-4">
+		<div class="flex items-center justify-between w-full h-16">
 			<div class="flex-shrink-0">
-				<a href="#" class="text-lg font-semibold text-lime-600 hover:text-lime-700">Nova</a>
+				<a
+					href="#home"
+					on:click|preventDefault={scrollIntoView}
+					class="text-lg font-semibold text-lime-600 hover:text-lime-700">Nova</a
+				>
 			</div>
-			<div class="hidden md:block lg:block">
-				<div class="ml-10 flex items-baseline space-x-4">
-					<!-- <a href="#" class="px-3 py-2 rounded-md text-sm">Home</a> -->
-					<a
-						href="#diensten"
-						on:click|preventDefault={scrollIntoView}
-						class="px-3 py-2 rounded-md text-sm hover:text-lime-950">Diensten</a
-					>
-					<a
-						href="#team"
-						on:click|preventDefault={scrollIntoView}
-						class="px-3 py-2 rounded-md text-sm hover:text-lime-950">Over ons</a
-					>
-					<a
-						href="#review"
-						on:click|preventDefault={scrollIntoView}
-						class="px-3 py-2 rounded-md text-sm hover:text-lime-950">Beoordelingen</a
-					>
-					<a
-						href="#contact"
-						on:click|preventDefault={scrollIntoView}
-						class="px-3 py-2 rounded-md text-sm hover:text-lime-950">Contact</a
-					>
-				</div>
+			<div class="items-baseline hidden ml-10 space-x-4 md:flex lg:flex">
+				<a
+					href="#diensten"
+					on:click|preventDefault={scrollIntoView}
+					class="px-3 py-2 text-sm rounded-md hover:text-lime-950">Diensten</a
+				>
+				<a
+					href="#team"
+					on:click|preventDefault={scrollIntoView}
+					class="px-3 py-2 text-sm rounded-md hover:text-lime-950">Over ons</a
+				>
+				<a
+					href="#review"
+					on:click|preventDefault={scrollIntoView}
+					class="px-3 py-2 text-sm rounded-md hover:text-lime-950">Beoordelingen</a
+				>
+				<a
+					href="#contact"
+					on:click|preventDefault={scrollIntoView}
+					class="px-3 py-2 text-sm rounded-md hover:text-lime-950">Contact</a
+				>
 			</div>
 		</div>
 	</div>
