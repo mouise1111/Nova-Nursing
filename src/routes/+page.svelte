@@ -301,9 +301,9 @@
 		<div class="flex-row items-center justify-between rounded lg:flex lg:content-center">
 			<div class="flex justify-center order-last lg:w-1/2 lg:order-first">
 				<img
-					src="https://online.norwich.edu/sites/default/files/content/resources/header/157.jpg"
+					src="/Nurses-Day.jpg"
 					alt="team"
-					class="hidden w-2/3 rounded-3xl team-picture lg:block"
+					class="hidden w-4/5 rounded-3xl team-picture lg:block"
 				/>
 			</div>
 			<div class="p-2 lg:w-1/2 lg:p-5 team-container">
@@ -326,11 +326,11 @@
 				</div>
 			</div>
 
-			<div class="flex justify-center order-last w-5/6 mx-auto mt-4 lg:hidden">
+			<div class="flex justify-center order-last mx-auto mt-4 lg:hidden">
 				<img
-					src="https://online.norwich.edu/sites/default/files/content/resources/header/157.jpg"
+					src="/Nurses-Day.jpg"
 					alt="team"
-					class="block p-3 rounded-3xl team-picture md:w-3/5 lg:hidden"
+					class="block p-3 rounded-3xl team-picture md:w-4/5 lg:hidden"
 				/>
 			</div>
 		</div>

@@ -20,11 +20,11 @@
 
 <div
 	id="diensten"
-	class="mb-32 second-screen md:mb-56 lg:mb-0 h-full lg:h-screen lg:flex lg:flex-col lg:content-center lg:justify-center"
+	class="h-full mb-32 second-screen md:mb-56 lg:mb-0 lg:h-screen lg:flex lg:flex-col lg:content-center lg:justify-center"
 >
 	<div>
-		<h3 class="text-center bold text-lime-600 mt-16 lg:mt-0 title-diensten">Onze Diensten</h3>
-		<h2 class="text-center text-2xl my-4 px-2 title-diensten-2">
+		<h3 class="mt-16 text-center bold text-lime-600 lg:mt-0 title-diensten">Onze Diensten</h3>
+		<h2 class="px-2 my-4 text-2xl text-center title-diensten-2">
 			Nova heeft een ruim zorgaanbod voor elke persoon die aangesloten is bij een Belgische
 			mutualiteit.
 		</h2>
@@ -32,218 +32,218 @@
 		{#if counter == 0}
 			<div
 				in:slide|local={{ duration: 500, axis: 'x' }}
-				class="lg:flex lg:flex-row justify-center lg:max-w-6xl lg:my-24 diensten mx-auto lg:justify-between container-diensten p-2"
+				class="justify-center p-2 mx-auto lg:flex lg:flex-row lg:max-w-6xl lg:my-24 diensten lg:justify-between container-diensten"
 			>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/soap-solid.svg"
 						alt="support icon"
-						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:w-12 md:w-10 lg:mx-0 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Hygiënische zorgen</h3>
 					<p class="text-sm lg:py-2">Zorg voor een goede persoonlijke hygiëne.</p>
 				</div>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/bandage-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:mx-0 lg:w-12 md:w-10 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Wondverzorging</h3>
 					<p class="text-sm lg:py-2">Professionele zorg voor wonden.</p>
 				</div>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/sringe-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:mx-0 lg:w-12 md:w-10 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Inspuitingen</h3>
 					<!-- injecties -->
 					<p class="text-sm lg:py-2">Veilige toediening van injecties.</p>
 				</div>
 			</div>
-			<div class="flex items-center gap-10 justify-center">
+			<div class="flex items-center justify-center gap-5 lg:gap-10">
 				<button
 					type="submit"
-					class="py-3 px-2 w-24 lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-2 py-3 text-white rounded-lg lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterDecrease}>Vorige</button
 				>
-				<div class="flex gap-3 justify-between">
-					<div class="rounded-full w-3 h-3 bg-gray-400" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
+				<div class="flex justify-between gap-3">
+					<div class="w-3 h-3 bg-gray-400 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
 				</div>
 				<button
 					type="submit"
-					class="py-3 px-2 w-24 lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-2 py-3 text-white rounded-lg lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterIncrease}>Volgende</button
 				>
 			</div>
 		{:else if counter == 1}
 			<div
 				in:slide|local={{ duration: 500, axis: 'x' }}
-				class="lg:flex lg:flex-row justify-center lg:max-w-6xl lg:my-24 diensten mx-auto lg:justify-between container-diensten p-2"
+				class="justify-center p-2 mx-auto lg:flex lg:flex-row lg:max-w-6xl lg:my-24 diensten lg:justify-between container-diensten"
 			>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/sock-solid.svg"
 						alt="support icon"
-						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:w-12 md:w-10 lg:mx-0 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Compressiekousen</h3>
 					<p class="text-sm lg:py-2">Professionele ondersteuning met compressiekousen.</p>
 				</div>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/sringe-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:mx-0 lg:w-12 md:w-10 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Insuline injecteren</h3>
 					<p class="text-sm lg:py-2">Deskundige insuline-injecties verzorgen.</p>
 				</div>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/bandage-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:mx-0 lg:w-12 md:w-10 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Compressieverband</h3>
 					<p class="text-sm lg:py-2">Effectieve behandeling met compressieverband.</p>
 				</div>
 			</div>
-			<div class="flex items-center gap-10 justify-center">
+			<div class="flex items-center justify-center gap-5 lg:gap-10">
 				<button
 					type="submit"
-					class="py-3 px-3 w-24 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-3 py-3 text-white rounded-lg bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterDecrease}>Vorige</button
 				>
-				<div class="flex gap-3 justify-between">
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-400" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
+				<div class="flex justify-between gap-3">
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-400 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
 				</div>
 				<button
 					type="submit"
-					class="py-3 px-2 w-24 lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-2 py-3 text-white rounded-lg lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterIncrease}>Volgende</button
 				>
 			</div>
 		{:else if counter == 2}
 			<div
 				in:slide|local={{ duration: 500, axis: 'x' }}
-				class="lg:flex lg:flex-row justify-center lg:max-w-6xl lg:my-24 diensten mx-auto lg:justify-between container-diensten p-2"
+				class="justify-center p-2 mx-auto lg:flex lg:flex-row lg:max-w-6xl lg:my-24 diensten lg:justify-between container-diensten"
 			>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/care-solid.svg"
 						alt="support icon"
-						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:w-12 md:w-10 lg:mx-0 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Stomazorg</h3>
 					<p class="text-sm lg:py-2">Betrouwbare zorg voor stoma-patiënten.</p>
 				</div>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/eye-drop.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:mx-0 lg:w-12 md:w-10 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Oogdruppels</h3>
 					<p class="text-sm lg:py-2">Zorgvuldige toediening van oogdruppels.</p>
 				</div>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/zalf.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:mx-0 lg:w-12 md:w-10 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Zalven</h3>
 					<p class="text-sm lg:py-2">Deskundig aanbrengen van zalf.</p>
 				</div>
 			</div>
-			<div class="flex items-center gap-10 justify-center">
+			<div class="flex items-center justify-center gap-5 lg:gap-10">
 				<button
 					type="submit"
-					class="py-3 px-3 w-24 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-3 py-3 text-white rounded-lg bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterDecrease}>Vorige</button
 				>
-				<div class="flex gap-3 justify-between">
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-400" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
+				<div class="flex justify-between gap-3">
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-400 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
 				</div>
 				<button
 					type="submit"
-					class="py-3 px-2 w-24 lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-2 py-3 text-white rounded-lg lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterIncrease}>Volgende</button
 				>
 			</div>
 		{:else if counter == 3}
 			<div
 				in:slide|local={{ duration: 500, axis: 'x' }}
-				class="lg:flex lg:flex-row justify-center lg:max-w-6xl lg:my-24 diensten mx-auto container-diensten p-2"
+				class="justify-center p-2 mx-auto lg:flex lg:flex-row lg:max-w-6xl lg:my-24 diensten container-diensten"
 			>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/medication.svg"
 						alt="support icon"
-						class="lg:py-2 lg:w-12 md:w-10 w-8 lg:mx-0 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:w-12 md:w-10 lg:mx-0 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Voorbereiden van weekmedicatie</h3>
 					<p class="text-sm lg:py-2">Nauwkeurige voorbereiding van wekelijkse medicatie.</p>
 				</div>
 				<div
-					class="flex flex-col justify-center lg:block border-t-4 border-lime-600 rounded-md mx-auto shadow-lg w-80 h-56 lg:h-64 py-5 lg:py-10 px-8 lg:my-0 my-8 text-center lg:text-left md:text-left"
+					class="flex flex-col justify-center h-56 px-8 py-5 mx-auto my-8 text-center border-t-4 rounded-md shadow-lg lg:block border-lime-600 w-80 lg:h-64 lg:py-10 lg:my-0 lg:text-left md:text-left"
 				>
 					<img
 						src="/support-solid.svg"
 						alt="bandage icon"
-						class="lg:py-2 lg:mx-0 lg:w-12 md:w-10 w-8 mx-auto hidden lg:block md:block"
+						class="hidden w-8 mx-auto lg:py-2 lg:mx-0 lg:w-12 md:w-10 lg:block md:block"
 					/>
 					<h3 class="py-2 text-lg lg:text-xl">Palliatieve verzorging</h3>
 					<p class="text-sm lg:py-2">Empathische zorg voor palliatieve patiënten.</p>
 				</div>
 			</div>
-			<div class="flex items-center gap-10 justify-center">
+			<div class="flex items-center justify-center gap-5 lg:gap-10">
 				<button
 					type="submit"
-					class="py-3 w-24 px-3 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-3 py-3 text-white rounded-lg bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterDecrease}>Vorige</button
 				>
-				<div class="flex gap-3 justify-between">
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-300" />
-					<div class="rounded-full w-3 h-3 bg-gray-400" />
+				<div class="flex justify-between gap-3">
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-300 rounded-full" />
+					<div class="w-3 h-3 bg-gray-400 rounded-full" />
 				</div>
 				<button
 					type="submit"
-					class="py-3 w-24 px-2 lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 text-white rounded-lg send-btn"
+					class="w-24 px-2 py-3 text-white rounded-lg lg:px-3 lg:py-3 bg-lime-600 hover:bg-lime-500 send-btn"
 					on:click={counterIncrease}>Volgende</button
 				>
 			</div>
